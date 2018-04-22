@@ -1,0 +1,23 @@
+{
+    "name": "ofcold/consign",
+    "description": "A powerful payment suite.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bill li",
+            "email": "bill.li@anomaly.ink"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ofcold\\Consign\\": "src/"
+        }
+    }
+}
